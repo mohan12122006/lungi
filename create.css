@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(5, 63, 74);
+    color: goldenrod;
+    padding: 10px;
+}
+li,ul,input,h3 {
+    display: inline;
+}
+h3 {
+    font-weight: 10;
+    font-style: italic;
+}
+ul {
+    margin-left: 0%;
+}
+li{
+    color: goldenrod;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+}
+.one-1 {
+    color: goldenrod;
+    text-decoration: none;
+}
+.searchbar {
+    display: inline-block;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+    padding-top: 3px;
+    margin-left: 50%;
+}
+li:hover {
+    color: white;
+    text-decoration: underline
+}
+.one-1:hover {
+    color: white;
+    text-decoration: underline;
+}
+.acount{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+button{
+    color:white;
+    width:295px ;
+    padding: 5px;
+    margin:  5px;
+    background-color: rgb(5, 78, 89);
+    border-color:goldenrod ;
+    border-width: 3px;
+    border-radius: 12px;
+ }
+ .footer-page {
+    background-color: black;
+    height: 350px;
+}
+.social {
+    padding: 10px;
+    text-decoration: none;
+}
+.look-1 {
+    width: 400px;
+}
+.container-1{
+   margin: 50px;
+}
+button{
+    color:white;
+    width:195px ;
+    padding: 5px;
+    margin:  5px;
+    background-color: rgb(5, 78, 89);
+    border-color:goldenrod ;
+    border-width: 3px;
+    border-radius: 12px;
+ }
+ h2{
+    margin: 10px;
+ }
+ button:hover{
+    width: 250px;
+    border-radius: 15px;
+    
+ }
+
+
+

@@ -1,0 +1,128 @@
+ nav {
+     background-color: rgb(5, 63, 74);
+     color: goldenrod;
+     padding: 5px;
+ }
+ li,ul,input,h3 {
+     display: inline;
+ }
+ h3 {
+     font-weight: 10;
+     font-style: italic;
+ }
+ ul {
+     margin-left: 0%;
+ }
+ li {
+     color: goldenrod;
+     cursor: pointer;
+     font-size: 20px;
+     padding: 10px;
+ }
+ a {
+     color:goldenrod;
+     text-decoration: none;
+ }
+ input {
+     display: inline-block;
+     cursor: pointer;
+     width: 200px;
+     font-size: medium;
+     padding-top: 3px;
+     margin-left: 50%;
+ }
+ li:hover {
+     color: white;
+     text-decoration: underline
+ }
+ a:hover {
+     color: white;
+ }
+ img {
+     height: 250px;
+     width: 239px;
+ }
+ .box {
+     background-color: rgba(255, 255, 254, 0.974);
+     border-color: black;
+     border-style: solid;
+     border-width: 2px;
+     display: inline-block;
+     margin: 20px;
+     width: 242px;
+     transform: translate(0.1s else in out);
+ }
+ .box:hover {
+     transform: scale(1.1);
+     z-index: 2;
+ }
+ p {
+     padding: 15px;
+ }
+ .box:hover {
+     background-color: black;
+     color: rgba(242, 242, 245, 0.698);
+ }
+ .two {
+     background-image: url(IMG-738-2_1400x.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 600px;
+ }
+ .h3{
+    display: block;
+    margin: 50px;
+    font-size: 40px;
+    font-weight: lighter;
+ }
+ .product {
+     padding: relative;
+ }
+ .one {
+     color: lightgrey;
+     margin: 5px;
+     padding: 8px 20px;
+ }
+ .footer-page {
+     background-color: black;
+     height: 350px;
+ }
+ @media only screen and (max-width:400px) {
+    .two {
+         background-image: url(IMG-738-2_1400x.webp);
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 100px;
+         margin-top: 5px;
+         justify-content: center;
+        }
+ }
+ .social {
+     padding: 10px;
+     text-decoration: none;
+ }
+ .look-1 {
+     width: 400px;
+ }
+ .container-1{
+    margin: 50px;
+ }
+ button{
+    color:white;
+    width:195px ;
+    padding: 5px;
+    margin:  5px;
+    background-color: black;
+    border-color:goldenrod ;
+    border-width: 3px;
+    border-radius: 12px;
+ }
+ h2{
+    margin: 10px;
+ }
+ button:hover{
+    width: 250px;
+    border-radius: 15px;
+    
+ }
+

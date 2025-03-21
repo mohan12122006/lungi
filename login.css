@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(5, 63, 74);
+    color: goldenrod;
+    padding: 10px;
+}
+li,ul,input,h3 {
+    display: inline;
+}
+h3 {
+    font-weight: 10;
+    font-style: italic;
+}
+ul {
+    margin-left: 0%;
+}
+li{
+    color: goldenrod;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px;
+}
+.one-1 {
+    color: goldenrod;
+    text-decoration: none;
+}
+.searchbar {
+    display: inline-block;
+    cursor: pointer;
+    width: 200px;
+    font-size: medium;
+    padding-top: 3px;
+    margin-left: 50%;
+}
+li:hover {
+    color: white;
+    text-decoration: underline
+}
+.one-1:hover {
+    color: white;
+    text-decoration: underline;
+}
+.login{
+    margin: 100px;
+}
+table{
+    border-width:1px;
+    border-style: double;
+    border-color: black;
+    width: 390px;
+    height:400px;
+}
+.box{
+    width: 380px;
+    margin: 8px;
+    height: 45px;
+    border-radius: 5px; 
+    border-color: black;
+}
+.butt{
+    background-color:hsla(190, 88%, 16%, 0.965);
+    color:white;
+    width: 300px;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+}
+.email{
+    padding-left: 10px;
+}
+.password{
+    padding-left: 10px;
+}
+.Remember-me{
+    display: inline;
+    padding-left: 10px;
+}
+.account{
+    text-decoration: none;
+    color: black;
+}
+.password,.forgot{
+    display: inline;
+}
+.forgot{
+    margin-left: 160px;
+    font-size: 14px;
+}
+.forgot-1{
+    text-decoration: none;
+}
+.one {
+    color: lightgrey;
+    margin: 5px;
+    padding: 8px 20px;
+}
+.footer-page {
+    background-color: black;
+    height: 350px;
+}
+.social {
+    padding: 10px;
+    text-decoration: none;
+}
+.look-1 {
+    width: 400px;
+}
+.container-1{
+   margin: 50px;
+}
+button{
+    color:white;
+    width:195px ;
+    padding: 5px;
+    margin:  5px;
+    background-color: rgb(5, 78, 89);
+    border-color:goldenrod ;
+    border-width: 3px;
+    border-radius: 12px;
+ }
+ h2{
+    margin: 10px;
+ }
+ button:hover{
+    width: 250px;
+    border-radius: 15px;
+    
+ }
+
+
+
